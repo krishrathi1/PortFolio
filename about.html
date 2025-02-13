@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Krish Rathi - Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Krish <span>Rathi</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="home.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="skill.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="project.html">Projects</a></div>
+            
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg();"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skill.html">Skills</a>
+                <a href="project.html">Projects</a>
+            
+                <i class="fa-solid fa-xmark cancel" onclick="cancel();"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="https://avatars.githubusercontent.com/u/148011352?s=400&u=423c94a10d1c647b2267b048858f3d0c30fc13b4&v=4" alt="Krish Rathi's Profile Picture">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700"><span>ABOUT</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                I am <strong>Krish Rathi</strong>, a <strong>software engineer, AI researcher, and technology enthusiast</strong> 
+                with a deep foundation in <strong>Python, Machine Learning, Java, C++, and Full-Stack Development</strong>. 
+                Passionate about <strong>solving complex problems through technology</strong>, I constantly explore innovations 
+                in <strong>artificial intelligence, web development, and game design</strong>.
+                </p>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                With <strong>over six years of programming experience</strong>, I have honed my skills in 
+                <strong>building scalable applications, deploying web servers, and developing AI-driven solutions</strong>. 
+                My expertise extends to <strong>natural language processing (NLP), automation, and real-time systems</strong>, 
+                enabling me to create impactful software solutions. 
+                </p>
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700"><span>VISION</span></h1>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                I believe in <strong>leveraging technology to create meaningful change</strong>, whether through 
+                AI-driven solutions, scalable architectures, or immersive digital experiences. My goal is to 
+                continue growing as a <strong>problem solver and innovator</strong>, making technology more accessible and efficient.
+                </p> 
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
