@@ -8,7 +8,7 @@ Features:
 - 📖 **About** – My background and expertise   
 - 🔧 **Skills** – Tech stack and proficiencies  
 - 🚀 **Projects** – Showcasing my work  
-- 💼 **Hire Me** – Contact for opportunities  
+- 💼 **Hire Me** – Contact for opportunities   
 
 Built with : HTML, CSS, JavaScript.  
 
