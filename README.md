@@ -12,6 +12,6 @@ Features:
 
 Built with : HTML, CSS, JavaScript.  
 
-Check it out and connect with me! 🚀✨  
+Check it out and connect with me! 🚀✨   
 
 Let me know if you want any modifications! 🔥
